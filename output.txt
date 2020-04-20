@@ -1,0 +1,28 @@
+Test Case ID | Resultado
+1 no
+2 si
+3 si
+4 si
+5 si
+6 si
+7 si
+8 si
+9 si
+10 si
+11 no
+11 no
+13 si
+14 si
+15 si
+16 si
+17 si
+18 no
+19 no
+20 si
+21 si
+22 si
+23 si
+24 si
+25 si
+26 si
+Prueba realizada: 2020-04-20 13:57:43.176458
