@@ -30,18 +30,22 @@ def palindromo():
 	output = open("output.txt",'w')
 	output.write("Test Case ID | Resultado\n")
 	pruebas = leer_pruebas('input.txt')
+	cont = 1
 	for test in pruebas:
-		cid = pruebas.index(test) + 1
+		cid = cont
 		output.write(str(cid)+" ")
 		test = limpiar_palabra(tildes_salto(test)) 
 		if(len(test) >1):
 			inversa = test[::-1]
 			if (test == inversa):
 				output.write("si\n")
+				cont+=1
 			else:
 				output.write("no\n")
+				cont+=1
 		else:
 			output.write("no\n")
+			cont+=1
 	time = datetime.now()
 	output.write("Prueba realizada: "+str(time))
 	output.close()
